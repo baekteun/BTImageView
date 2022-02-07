@@ -18,5 +18,6 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "BTImageView/Classes/**/*"
+  "source_files": "Sources/gBTImageView/Classes/**/*",
+  "frameworks": "UIKit"
 }

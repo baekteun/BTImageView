@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BTImageView: cced59b517104acd7ebbd1d8cf125c432de3e35c
+  BTImageView: de660b68df66c8ca1e694f764b6503a6daa176ea
 
 PODFILE CHECKSUM: f2cfb73016ef65287fd07712cebf7be7b34adcb2
 
