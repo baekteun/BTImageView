@@ -19,7 +19,8 @@ jobs:
     - name: Run tests
       run: |
         swift package generate-xcodeproj
-        xcodebuild test -project BKImageView.xcodeproj -scheme MyPackage -sdk iphonesimulator15.0 -destination "OS=9.0,name=iPhone 11"
+        xcodebuild build -sdk iphoneos -scheme 'BTImageView-Package'
+        xcodebuild test -destination 'name=iPhone 11' -scheme 'BTImageView-Package'
     - name: Deploy Cocoapods
       run : |
         set -eo pipefail
