@@ -27,5 +27,16 @@ final class BTImageViewTests: XCTestCase {
         XCTAssertEqual(iv.images.count, 1)
     }
     
-    
+    func test_imageView_maximum() {
+        let images: [UIImage] = [
+            .init(),
+            .init(),
+            .init(),
+            .init(),
+            .init()
+        ]
+        let iv = BTImageView(aligns: [1,3])
+        iv.setImages(images: images)
+        XCTAssertEqual(iv.imageViews.count, 4)
+    }g
 }
