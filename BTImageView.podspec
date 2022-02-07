@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BTImageView'
-  s.version          = '0.1.1'
+  s.version          = ENV['LIB_VERSION'] || '1.0.0'
   s.summary          = 'Simple cool imageView'
 
 # This description is used to generate tags and improve search results.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'BTImageView is cool ImageView for images'
+  s.description      = 'BTImageView is cool ImageView for some imagesg'
 
   s.homepage         = 'https://github.com/baekteun/BTImageView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
