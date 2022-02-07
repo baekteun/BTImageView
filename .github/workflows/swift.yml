@@ -17,7 +17,7 @@ jobs:
     - name: Build
       run: swift build -Xswiftc "-sdk" -Xswiftc "`xcrun --sdk iphonesimulator --show-sdk-path`" -Xswiftc "-target" -Xswiftc "x86_64-apple-ios9.0-simulator"
     - name: Run tests
-      run: swift test -v
+      run: xcodebuild test -destination 'name=iPhone 11' -scheme 'BKImageView'
     - name: Deploy Cocoapods
       run : |
         set -eo pipefail
