@@ -19,6 +19,7 @@ public class BTImageView: UIView {
     }
     
     // MARK: - Init
+    public init() { super.init(frame: .zero) }
     public init(
         aligns: [Int] = [1],
         spacing: CGFloat = 5,
@@ -32,7 +33,6 @@ public class BTImageView: UIView {
     
     required public init?(coder: NSCoder) {
         super.init(coder: coder)
-        fatalError("init(coder:) has not been implemented")
     }
 }
 
