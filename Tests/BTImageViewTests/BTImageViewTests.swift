@@ -38,5 +38,5 @@ final class BTImageViewTests: XCTestCase {
         let iv = BTImageView(aligns: [1,3])
         iv.setImages(images: images)
         XCTAssertEqual(iv.imageViews.count, 4)
-    }g
+    }
 }
