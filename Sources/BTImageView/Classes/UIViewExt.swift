@@ -1,5 +1,6 @@
+#if canImport(UIKit)
 import UIKit
-
+#endif
 extension UIView {
     func equalToSuperView() {
         guard let superview = superview else {
