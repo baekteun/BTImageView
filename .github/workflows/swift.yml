@@ -15,7 +15,7 @@ jobs:
     - name: Install Cocoapods
       run: gem install cocoapods
     - name: Build
-      run: swift build -Xswiftc "-sdk" -Xswiftc "`xcrun --sdk iphonesimulator --show-sdk-path`" -Xswiftc "-target" -Xswiftc "x86_64-apple-ios13.0-simulator"
+      run: swift build -Xswiftc "-sdk" -Xswiftc "`xcrun --sdk iphonesimulator --show-sdk-path`" -Xswiftc "-target" -Xswiftc "x86_64-apple-ios9.0-simulator"
     - name: Run tests
       run: swift test -v
     - name: Deploy Cocoapods
