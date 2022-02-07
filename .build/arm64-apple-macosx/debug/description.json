@@ -62,7 +62,7 @@
         "-sdk",
         "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk",
         "-target",
-        "x86_64-apple-ios15.0-simulator"
+        "x86_64-apple-ios9.0-simulator"
       ],
       "outputs" : [
         {
@@ -134,7 +134,7 @@
         "-sdk",
         "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk",
         "-target",
-        "x86_64-apple-ios15.0-simulator"
+        "x86_64-apple-ios9.0-simulator"
       ],
       "outputs" : [
         {
