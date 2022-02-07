@@ -114,7 +114,7 @@ fileprivate extension BTImageView {
         var lineImageViews: [UIImageView] = []
         images.forEach { image in
             if self.imageViews.count == limitCount {
-                let over = self.imageViews.count - limitCount
+                let over = self.imageViews.count - self.images.count
                 self.imageViews[lastIndex].configureMoreOverlay(text: "+ \(over)")
             }
             else {
