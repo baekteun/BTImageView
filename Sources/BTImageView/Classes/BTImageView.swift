@@ -5,9 +5,9 @@ public class BTImageView: UIView {
     // MARK: - Properties
     public fileprivate(set) var imageViews: [UIImageView] = []
     public var images: [UIImage] = []
-    public var aligns: [Int]
-    public var axis: NSLayoutConstraint.Axis
-    public var spacing: CGFloat
+    public var aligns: [Int] = [1]
+    public var axis: NSLayoutConstraint.Axis = .horizontal
+    public var spacing: CGFloat = 5
     fileprivate var limitCount: Int {
         get { return aligns.reduce(0, +) }
     }
