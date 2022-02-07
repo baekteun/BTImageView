@@ -1,6 +1,7 @@
 # BTImageView
 
-[![CI Status](https://img.shields.io/travis/baekteun/BTImageView.svg?style=flat)](https://travis-ci.org/baekteun/BTImageView)
+
+<!--[![CI Status](https://img.shields.io/travis/baekteun/BTImageView.svg?style=flat)](https://travis-ci.org/baekteun/BTImageView)-->
 [![Version](https://img.shields.io/cocoapods/v/BTImageView.svg?style=flat)](https://cocoapods.org/pods/BTImageView)
 [![License](https://img.shields.io/cocoapods/l/BTImageView.svg?style=flat)](https://cocoapods.org/pods/BTImageView)
 [![Platform](https://img.shields.io/cocoapods/p/BTImageView.svg?style=flat)](https://cocoapods.org/pods/BTImageView)
