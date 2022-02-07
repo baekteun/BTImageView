@@ -1,0 +1,22 @@
+{
+  "name": "BTImageView",
+  "version": "0.1.0",
+  "summary": "A short description of BTImageView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/baekteun/BTImageView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "baekteun": "baegteun@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/baekteun/BTImageView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BTImageView/Classes/**/*"
+}

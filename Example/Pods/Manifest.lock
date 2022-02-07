@@ -1,0 +1,16 @@
+PODS:
+  - BTImageView (0.1.0)
+
+DEPENDENCIES:
+  - BTImageView (from `../`)
+
+EXTERNAL SOURCES:
+  BTImageView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BTImageView: cced59b517104acd7ebbd1d8cf125c432de3e35c
+
+PODFILE CHECKSUM: f2cfb73016ef65287fd07712cebf7be7b34adcb2
+
+COCOAPODS: 1.11.2

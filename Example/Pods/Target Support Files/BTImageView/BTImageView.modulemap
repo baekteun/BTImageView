@@ -1,0 +1,6 @@
+framework module BTImageView {
+  umbrella header "BTImageView-umbrella.h"
+
+  export *
+  module * { export * }
+}
