@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
-options: "1acbcceeb20463d22a6fc7ef33506e32fd360e9a4cd05cc91ef9f0c1919e456a"
-build_start_time: [1644246979, 423493862]
-build_end_time: [1644246979, 583045005]
-inputs:
-  "/Users/baegteun/Swift/Library/BTImageView/Tests/BTImageViewTests/BTImageViewTests.swift": !private [1644246571, 684617519]
