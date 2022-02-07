@@ -2,6 +2,7 @@
 #if canImport(UIKit)
 import UIKit
 #endif
+import Foundation
 
 public class BTImageView: UIView {
     // MARK: - Properties
@@ -41,9 +42,35 @@ public extension BTImageView {
         self.images.append(image)
         update()
     }
+    func addImage(url: String) {
+        guard let url = URL(string: url) else {
+            return
+        }
+        DispatchQueue.global().async {
+            guard let data = try? Data(contentsOf: url) else { return }
+            guard let image = UIImage(data: data) else { return }
+            DispatchQueue.main.async {
+                self.addImage(image: image)
+            }
+        }
+    }
     func setImages(images: [UIImage]) {
         self.images = images
         update()
+    }
+    func setImages(urls: [String]) {
+        let urls = urls.map { URL(string: $0) }.compactMap{ $0 }
+        DispatchQueue.global().async {
+            var images: [UIImage] = []
+            urls.forEach{ url in
+                guard let data = try? Data(contentsOf: url) else { return }
+                guard let image = UIImage(data: data) else { return }
+                images.append(image)
+            }
+            DispatchQueue.main.async {
+                self.setImages(images: images)
+            }
+        }
     }
     func removeFirstImage() {
         self.images.removeFirst()
