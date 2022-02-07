@@ -20,7 +20,6 @@ Pod::Spec.new do |s|
   s.description      = 'BTImageView is cool ImageView for some imagesg'
   
   s.homepage         = 'https://github.com/baekteun/BTImageView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'baekteun' => 'baegteun@gmail.com' }
   s.source           = { :git => 'https://github.com/baekteun/BTImageView.git', :tag => s.version.to_s }

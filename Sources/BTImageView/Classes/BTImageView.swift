@@ -28,6 +28,7 @@ public class BTImageView: UIView {
     }
     
     required public init?(coder: NSCoder) {
+        super.init(coder: coder)
         fatalError("init(coder:) has not been implemented")
     }
 }
