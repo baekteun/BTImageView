@@ -27,5 +27,6 @@ let package = Package(
         .testTarget(
             name: "BTImageViewTests",
             dependencies: ["BTImageView"]),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
