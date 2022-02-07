@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Sources/BTImageView/Classes/**/*'
+  s.ios.source_files = 'Sources/BTImageView/Classes/**/*'
   
   s.swift_versions = '5.0'
   s.frameworks = 'UIKit'
