@@ -69,7 +69,7 @@ func removeLastImage()
 func removeImage(at index: Int)
 func removeAllImage()
 ```
-Remove image from the BTImageView
+Remove image from the BTImageViewg
 
 ## Installation
 ### Swift Package Manager
