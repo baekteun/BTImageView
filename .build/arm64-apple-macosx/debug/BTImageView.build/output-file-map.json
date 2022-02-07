@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/baegteun/Swift/Library/BTImageView/.build/arm64-apple-macosx/debug/BTImageView.build/master.swiftdeps"
+  },
+  "/Users/baegteun/Swift/Library/BTImageView/Sources/BTImageView/Classes/BTImageView.swift": {
+    "dependencies": "/Users/baegteun/Swift/Library/BTImageView/.build/arm64-apple-macosx/debug/BTImageView.build/Classes/BTImageView.d",
+    "object": "/Users/baegteun/Swift/Library/BTImageView/.build/arm64-apple-macosx/debug/BTImageView.build/Classes/BTImageView.swift.o",
+    "swiftmodule": "/Users/baegteun/Swift/Library/BTImageView/.build/arm64-apple-macosx/debug/BTImageView.build/Classes/BTImageView~partial.swiftmodule",
+    "swift-dependencies": "/Users/baegteun/Swift/Library/BTImageView/.build/arm64-apple-macosx/debug/BTImageView.build/Classes/BTImageView.swiftdeps"
+  },
+  "/Users/baegteun/Swift/Library/BTImageView/Sources/BTImageView/Classes/UIViewExt.swift": {
+    "dependencies": "/Users/baegteun/Swift/Library/BTImageView/.build/arm64-apple-macosx/debug/BTImageView.build/Classes/UIViewExt.d",
+    "object": "/Users/baegteun/Swift/Library/BTImageView/.build/arm64-apple-macosx/debug/BTImageView.build/Classes/UIViewExt.swift.o",
+    "swiftmodule": "/Users/baegteun/Swift/Library/BTImageView/.build/arm64-apple-macosx/debug/BTImageView.build/Classes/UIViewExt~partial.swiftmodule",
+    "swift-dependencies": "/Users/baegteun/Swift/Library/BTImageView/.build/arm64-apple-macosx/debug/BTImageView.build/Classes/UIViewExt.swiftdeps"
+  }
+}

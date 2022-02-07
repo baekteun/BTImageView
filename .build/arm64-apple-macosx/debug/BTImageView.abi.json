@@ -1,0 +1,1010 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "BTImageView"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "BTImageView"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "BTImageView"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "BTImageView",
+      "printedName": "BTImageView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "imageViews",
+          "printedName": "imageViews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[UIKit.UIImageView]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIImageView",
+                  "printedName": "UIKit.UIImageView",
+                  "usr": "c:objc(cs)UIImageView"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11BTImageViewAAC10imageViewsSaySo07UIImageB0CGvp",
+          "mangledName": "$s11BTImageViewAAC10imageViewsSaySo07UIImageB0CGvp",
+          "moduleName": "BTImageView",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "SetterAccess",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[UIKit.UIImageView]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIImageView",
+                      "printedName": "UIKit.UIImageView",
+                      "usr": "c:objc(cs)UIImageView"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11BTImageViewAAC10imageViewsSaySo07UIImageB0CGvg",
+              "mangledName": "$s11BTImageViewAAC10imageViewsSaySo07UIImageB0CGvg",
+              "moduleName": "BTImageView",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "images",
+          "printedName": "images",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[UIKit.UIImage]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIImage",
+                  "printedName": "UIKit.UIImage",
+                  "usr": "c:objc(cs)UIImage"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11BTImageViewAAC6imagesSaySo7UIImageCGvp",
+          "mangledName": "$s11BTImageViewAAC6imagesSaySo7UIImageCGvp",
+          "moduleName": "BTImageView",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[UIKit.UIImage]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIImage",
+                      "printedName": "UIKit.UIImage",
+                      "usr": "c:objc(cs)UIImage"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11BTImageViewAAC6imagesSaySo7UIImageCGvg",
+              "mangledName": "$s11BTImageViewAAC6imagesSaySo7UIImageCGvg",
+              "moduleName": "BTImageView",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[UIKit.UIImage]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIImage",
+                      "printedName": "UIKit.UIImage",
+                      "usr": "c:objc(cs)UIImage"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11BTImageViewAAC6imagesSaySo7UIImageCGvs",
+              "mangledName": "$s11BTImageViewAAC6imagesSaySo7UIImageCGvs",
+              "moduleName": "BTImageView",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11BTImageViewAAC6imagesSaySo7UIImageCGvM",
+              "mangledName": "$s11BTImageViewAAC6imagesSaySo7UIImageCGvM",
+              "moduleName": "BTImageView",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "aligns",
+          "printedName": "aligns",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Int]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11BTImageViewAAC6alignsSaySiGvp",
+          "mangledName": "$s11BTImageViewAAC6alignsSaySiGvp",
+          "moduleName": "BTImageView",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.Int]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11BTImageViewAAC6alignsSaySiGvg",
+              "mangledName": "$s11BTImageViewAAC6alignsSaySiGvg",
+              "moduleName": "BTImageView",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.Int]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11BTImageViewAAC6alignsSaySiGvs",
+              "mangledName": "$s11BTImageViewAAC6alignsSaySiGvs",
+              "moduleName": "BTImageView",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11BTImageViewAAC6alignsSaySiGvM",
+              "mangledName": "$s11BTImageViewAAC6alignsSaySiGvM",
+              "moduleName": "BTImageView",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "axis",
+          "printedName": "axis",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Axis",
+              "printedName": "UIKit.NSLayoutConstraint.Axis",
+              "usr": "c:@E@UILayoutConstraintAxis"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11BTImageViewAAC4axisSo22UILayoutConstraintAxisVvp",
+          "mangledName": "$s11BTImageViewAAC4axisSo22UILayoutConstraintAxisVvp",
+          "moduleName": "BTImageView",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Axis",
+                  "printedName": "UIKit.NSLayoutConstraint.Axis",
+                  "usr": "c:@E@UILayoutConstraintAxis"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11BTImageViewAAC4axisSo22UILayoutConstraintAxisVvg",
+              "mangledName": "$s11BTImageViewAAC4axisSo22UILayoutConstraintAxisVvg",
+              "moduleName": "BTImageView",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Axis",
+                  "printedName": "UIKit.NSLayoutConstraint.Axis",
+                  "usr": "c:@E@UILayoutConstraintAxis"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11BTImageViewAAC4axisSo22UILayoutConstraintAxisVvs",
+              "mangledName": "$s11BTImageViewAAC4axisSo22UILayoutConstraintAxisVvs",
+              "moduleName": "BTImageView",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11BTImageViewAAC4axisSo22UILayoutConstraintAxisVvM",
+              "mangledName": "$s11BTImageViewAAC4axisSo22UILayoutConstraintAxisVvM",
+              "moduleName": "BTImageView",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "spacing",
+          "printedName": "spacing",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11BTImageViewAAC7spacing12CoreGraphics7CGFloatVvp",
+          "mangledName": "$s11BTImageViewAAC7spacing12CoreGraphics7CGFloatVvp",
+          "moduleName": "BTImageView",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11BTImageViewAAC7spacing12CoreGraphics7CGFloatVvg",
+              "mangledName": "$s11BTImageViewAAC7spacing12CoreGraphics7CGFloatVvg",
+              "moduleName": "BTImageView",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11BTImageViewAAC7spacing12CoreGraphics7CGFloatVvs",
+              "mangledName": "$s11BTImageViewAAC7spacing12CoreGraphics7CGFloatVvs",
+              "moduleName": "BTImageView",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11BTImageViewAAC7spacing12CoreGraphics7CGFloatVvM",
+              "mangledName": "$s11BTImageViewAAC7spacing12CoreGraphics7CGFloatVvM",
+              "moduleName": "BTImageView",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(aligns:spacing:axis:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "BTImageView",
+              "printedName": "BTImageView.BTImageView",
+              "usr": "c:@M@BTImageView@objc(cs)BTImageView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Int]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "hasDefaultArg": true,
+              "usr": "s:12CoreGraphics7CGFloatV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Axis",
+              "printedName": "UIKit.NSLayoutConstraint.Axis",
+              "hasDefaultArg": true,
+              "usr": "c:@E@UILayoutConstraintAxis"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:11BTImageViewAAC6aligns7spacing4axisABSaySiG_12CoreGraphics7CGFloatVSo22UILayoutConstraintAxisVtcfc",
+          "mangledName": "$s11BTImageViewAAC6aligns7spacing4axisABSaySiG_12CoreGraphics7CGFloatVSo22UILayoutConstraintAxisVtcfc",
+          "moduleName": "BTImageView",
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "BTImageView.BTImageView?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "BTImageView",
+                  "printedName": "BTImageView.BTImageView",
+                  "usr": "c:@M@BTImageView@objc(cs)BTImageView"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@BTImageView@objc(cs)BTImageView(im)initWithCoder:",
+          "mangledName": "$s11BTImageViewAAC5coderABSgSo7NSCoderC_tcfc",
+          "moduleName": "BTImageView",
+          "overriding": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(frame:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "BTImageView",
+              "printedName": "BTImageView.BTImageView",
+              "usr": "c:@M@BTImageView@objc(cs)BTImageView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGRect",
+              "printedName": "CoreGraphics.CGRect",
+              "usr": "c:@S@CGRect"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@BTImageView@objc(cs)BTImageView(im)initWithFrame:",
+          "mangledName": "$s11BTImageViewAAC5frameABSo6CGRectV_tcfc",
+          "moduleName": "BTImageView",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithFrame:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "addImage",
+          "printedName": "addImage(image:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIImage",
+              "printedName": "UIKit.UIImage",
+              "usr": "c:objc(cs)UIImage"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11BTImageViewAAC8addImage5imageySo7UIImageC_tF",
+          "mangledName": "$s11BTImageViewAAC8addImage5imageySo7UIImageC_tF",
+          "moduleName": "BTImageView",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setImages",
+          "printedName": "setImages(images:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[UIKit.UIImage]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIImage",
+                  "printedName": "UIKit.UIImage",
+                  "usr": "c:objc(cs)UIImage"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11BTImageViewAAC9setImages6imagesySaySo7UIImageCG_tF",
+          "mangledName": "$s11BTImageViewAAC9setImages6imagesySaySo7UIImageCG_tF",
+          "moduleName": "BTImageView",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "removeFirstImage",
+          "printedName": "removeFirstImage()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11BTImageViewAAC16removeFirstImageyyF",
+          "mangledName": "$s11BTImageViewAAC16removeFirstImageyyF",
+          "moduleName": "BTImageView",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "removeLastImage",
+          "printedName": "removeLastImage()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11BTImageViewAAC15removeLastImageyyF",
+          "mangledName": "$s11BTImageViewAAC15removeLastImageyyF",
+          "moduleName": "BTImageView",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "removeImage",
+          "printedName": "removeImage(at:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11BTImageViewAAC11removeImage2atySi_tF",
+          "mangledName": "$s11BTImageViewAAC11removeImage2atySi_tF",
+          "moduleName": "BTImageView",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "removeAllImage",
+          "printedName": "removeAllImage()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11BTImageViewAAC14removeAllImageyyF",
+          "mangledName": "$s11BTImageViewAAC14removeAllImageyyF",
+          "moduleName": "BTImageView",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@BTImageView@objc(cs)BTImageView",
+      "mangledName": "$s11BTImageViewAAC",
+      "moduleName": "BTImageView",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIView",
+      "superclassNames": [
+        "UIKit.UIView",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "__DefaultCustomPlaygroundQuickLookable",
+          "printedName": "__DefaultCustomPlaygroundQuickLookable",
+          "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+          "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "BTImageView"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "BTImageView"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "BTImageView"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "UIView",
+      "printedName": "UIView",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "equalToSuperView",
+          "printedName": "equalToSuperView()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So6UIViewC11BTImageViewE012equalToSuperC0yyF",
+          "mangledName": "$sSo6UIViewC11BTImageViewE012equalToSuperC0yyF",
+          "moduleName": "BTImageView",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "configureMoreOverlay",
+          "printedName": "configureMoreOverlay(text:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So6UIViewC11BTImageViewE20configureMoreOverlay4textySS_tF",
+          "mangledName": "$sSo6UIViewC11BTImageViewE20configureMoreOverlay4textySS_tF",
+          "moduleName": "BTImageView",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:objc(cs)UIView",
+      "moduleName": "UIKit",
+      "isOpen": true,
+      "intro_iOS": "2.0",
+      "objc_name": "UIView",
+      "declAttributes": [
+        "Custom",
+        "Available",
+        "ObjC",
+        "Dynamic"
+      ],
+      "superclassUsr": "c:objc(cs)UIResponder",
+      "isExternal": true,
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "__DefaultCustomPlaygroundQuickLookable",
+          "printedName": "__DefaultCustomPlaygroundQuickLookable",
+          "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+          "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

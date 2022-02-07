@@ -1,0 +1,4 @@
+module BTImageView {
+    header "/Users/baegteun/Swift/Library/BTImageView/.build/arm64-apple-macosx/debug/BTImageView.build/BTImageView-Swift.h"
+    requires objc
+}
