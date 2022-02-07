@@ -18,18 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = 'BTImageView is cool ImageView for some imagesg'
-
+  
   s.homepage         = 'https://github.com/baekteun/BTImageView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'baekteun' => 'baegteun@gmail.com' }
   s.source           = { :git => 'https://github.com/baekteun/BTImageView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.platform = :ios, '9.0'
   s.ios.deployment_target = '9.0'
 
   s.ios.source_files = 'Sources/BTImageView/Classes/**/*'
   
   s.swift_versions = '5.0'
-  s.frameworks = 'UIKit'
+  s.frameworks = 'UIKit', 'Foundation'
 end

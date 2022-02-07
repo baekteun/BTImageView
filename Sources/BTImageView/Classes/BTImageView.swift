@@ -1,7 +1,6 @@
 
-#if canImport(UIKit)
 import UIKit
-#endif
+
 public class BTImageView: UIView {
     // MARK: - Properties
     public fileprivate(set) var imageViews: [UIImageView] = []
