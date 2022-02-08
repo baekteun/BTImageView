@@ -116,7 +116,7 @@ BTImageView is available througb [SPM](https://github.com/apple/swift-package-ma
 // Package.swift
 
 dependencies: [
-    .package(url: "https://github.com/baekteun/BTImageView", from: "1.0.8")
+    .package(url: "https://github.com/baekteun/BTImageView", from: "1.1.1")
 ]
 ```
 
