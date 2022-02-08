@@ -4,9 +4,6 @@
 [![License](https://img.shields.io/cocoapods/l/BTImageView.svg?style=flat)](https://cocoapods.org/pods/BTImageView)
 [![Platform](https://img.shields.io/cocoapods/p/BTImageView.svg?style=flat)](https://cocoapods.org/pods/BTImageView)
 
-![Ex1](Screenshots/BTImageView-1.png 'BTImageView')
-![Ex2](Screenshots/BTImageView-2.png 'BTImageView')
-![Ex3](Screenshots/BTImageView-3.png 'BTImageView')
 ## Requirements
 
 - iOS 9.0 or higher
@@ -19,15 +16,55 @@ import BTImageView
 ```
 
 ### Use
-#### Storyboard
+### Storyboard
 Add a custom view to the storyboard and set its class to "BTImageView".
 
-#### Programmatically
+### Programmatically
 Initialize `BTImageView` programmatically
 ```swift
 let imageView = BTImageView()
 view.addSubView(imageView)
 ```
+
+### Example
+```swift
+imageView.aligns = [2, 3]
+imageView.axis = .vertical
+imageView.setImages(images: [
+    .init(systemName: "1.circle") ?? .init(),
+    ...
+    .init(systemName: "9.circle") ?? .init(),
+])
+```
+Result: 
+
+![Ex1](Screenshots/BTImageView-1.png 'BTImageView')
+
+```swift
+imageView.aligns: [1, 2]
+imageView.axis = .horizontal
+imageView.setImages(images: [
+    .init(systemName: "1.circle") ?? .init(),
+    ...
+    .init(systemName: "9.circle") ?? .init(),
+])
+```
+Result:
+
+![Ex2](Screenshots/BTImageView-2.png 'BTImageView')
+
+```swift
+imageView.aligns: [2, 3, 2]
+imageView.axis = .vertical
+imageView.setImages(images: [
+    .init(systemName: "1.circle") ?? .init(),
+    ...
+    .init(systemName: "9.circle") ?? .init(),    
+])
+```
+Result:
+
+![Ex3](Screenshots/BTImageView-3.png 'BTImageView')
 
 ## BTImageView
 ### Properties
