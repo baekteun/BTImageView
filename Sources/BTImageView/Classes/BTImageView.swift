@@ -4,8 +4,12 @@ import UIKit
 #endif
 import Foundation
 
+public protocol BTImageViewDelegate: AnyObject {
+    func BTImageViewDidTap(image: UIImage?, index: Int)
+}
 public class BTImageView: UIView {
     // MARK: - Properties
+    public weak var delegate: BTImageViewDelegate?
     public fileprivate(set) var imageViews: [UIImageView] = []
     public var images: [UIImage] = []
     public var aligns: [Int] = [1]
@@ -112,7 +116,7 @@ fileprivate extension BTImageView {
         let subAxis: NSLayoutConstraint.Axis = self.axis == .horizontal ? .vertical : .horizontal
         
         var lineImageViews: [UIImageView] = []
-        images.forEach { image in
+        images.enumerated().forEach { image in
             if self.imageViews.count == limitCount {
                 let over = self.images.count - self.imageViews.count 
                 self.imageViews[lastIndex].configureMoreOverlay(text: "+ \(over)")
@@ -127,9 +131,13 @@ fileprivate extension BTImageView {
                 else {
                     currentSub += 1
                 }
-                let iv = UIImageView(image: image)
+                let gesture = BTivGesture(target: self, action: #selector(didTap(_:)))
+                let iv = UIImageView(image: image.element)
+                iv.addGestureRecognizer(gesture)
                 iv.contentMode = .scaleAspectFill
                 iv.clipsToBounds = true
+                gesture.image = image.element
+                gesture.index = image.offset
                 lineImageViews.append(iv)
                 self.imageViews.append(iv)
             }
@@ -139,6 +147,15 @@ fileprivate extension BTImageView {
         }
         let stack = CustomStackView(views: subStacks, axis: self.axis)
         addSubview(stack)
+    }
+    
+    @objc func didTap(_ gesture: BTivGesture) {
+        self.delegate?.BTImageViewDidTap(image: gesture.image, index: gesture.index)
+    }
+    
+    class BTivGesture: UITapGestureRecognizer {
+        var image: UIImage?
+        var index: Int = 0
     }
     
     func CustomStackView(views: [UIView], axis: NSLayoutConstraint.Axis) -> UIStackView {
