@@ -15,6 +15,7 @@ public class BTImageView: UIView {
     public var aligns: [Int] = [1]
     public var axis: NSLayoutConstraint.Axis = .horizontal
     public var spacing: CGFloat = 5
+    public var cornerRadius: CGFloat = 5
     fileprivate var limitCount: Int {
         get { return aligns.reduce(0, +) }
     }
@@ -27,11 +28,13 @@ public class BTImageView: UIView {
     public init(
         aligns: [Int] = [1],
         spacing: CGFloat = 5,
-        axis: NSLayoutConstraint.Axis = .horizontal
+        axis: NSLayoutConstraint.Axis = .horizontal,
+        cornerRadius: CGFloat = 5
     ) {
         self.aligns = aligns
         self.spacing = spacing
         self.axis = axis
+        self.cornerRadius = cornerRadius
         super.init(frame: .zero)
     }
     
@@ -119,7 +122,9 @@ fileprivate extension BTImageView {
         images.enumerated().forEach { image in
             if self.imageViews.count == limitCount {
                 let over = self.images.count - self.imageViews.count 
-                self.imageViews[lastIndex].configureMoreOverlay(text: "+ \(over)")
+                self.imageViews[lastIndex].configureMoreOverlay(
+                    text: "+ \(over)",
+                    cornerRadius: self.cornerRadius)
             }
             else {
                 if currentSub == self.aligns[currentHead] {
@@ -135,6 +140,7 @@ fileprivate extension BTImageView {
                 let iv = UIImageView(image: image.element)
                 iv.addGestureRecognizer(gesture)
                 iv.contentMode = .scaleAspectFill
+                iv.layer.cornerRadius = self.cornerRadius
                 iv.clipsToBounds = true
                 gesture.image = image.element
                 gesture.index = image.offset

@@ -15,7 +15,7 @@ extension UIView {
         ])
     }
     
-    func configureMoreOverlay(text: String) {
+    func configureMoreOverlay(text: String, cornerRadius: CGFloat = 5) {
         subviews.forEach{ $0.removeFromSuperview() }
         
         guard !text.isEmpty else {
@@ -29,6 +29,7 @@ extension UIView {
         overlay.font = .preferredFont(forTextStyle: .headline)
         overlay.textAlignment = .center
         overlay.textColor = .white
+        overlay.layer.cornerRadius = cornerRadius
         self.addSubview(overlay)
         overlay.equalToSuperView()
     }
