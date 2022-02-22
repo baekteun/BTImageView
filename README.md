@@ -78,6 +78,8 @@ var aligns: [Int] // Item align in BTImageView. (Default: [1])
 var axis: NSLayoutConstraint.Axis // ImageViews's direction where its pile up (Default: .horizontal)
 
 var spacing: CGFloat // The spacing of the imageViews. (Default: 5)
+
+var cornerRadius: CGFloat // The ImageView's cornerRadius (Default: 5)
 ```
 
 ### Methods
